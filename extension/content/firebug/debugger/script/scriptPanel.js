@@ -1307,6 +1307,7 @@ ScriptPanel.prototype = Obj.extend(BasePanel,
         }
 
         items.push({
+            id:"fbEditBreakpointCondition",
             label: "EditBreakpointCondition",
             tooltiptext: "breakpoints.tip.Edit_Breakpoint_Condition",
             command: Obj.bindFixed(this.initializeEditBreakpointCondition, this, lineNo)
